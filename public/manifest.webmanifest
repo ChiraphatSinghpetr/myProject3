@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Chiraphat — พื้นที่ของเรา",
+  "short_name": "Chiraphat",
+  "description": "พื้นที่แนะนำตัว เล่าเรื่องราว และทำความรู้จักกับสมาชิกของเรา",
+  "lang": "th",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f7fa",
+  "theme_color": "#7965ad",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
