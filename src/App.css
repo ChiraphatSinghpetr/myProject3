@@ -1257,6 +1257,57 @@ main {
   }
 }
 
+.brand { font-size: 16px; }
+.nav-link,
+.button { font-size: 13px; }
+.eyebrow,
+.section-kicker { font-size: 11px; }
+.hero-description { font-size: 15px; }
+.hero-note { font-size: 12px; }
+.avatar-stack span { font-size: 11px; }
+.status-pill,
+.profile-handle,
+.age-caption,
+.age-controls .reset-age,
+.floating-tag,
+.floating-number span,
+.highlight-item p,
+.member-info > p,
+.member-meta,
+.site-footer button { font-size: 11px; }
+.profile-label,
+.age-row strong small,
+.page-heading p,
+.about-copy > p,
+.member-count span,
+.search-box input,
+.button-outline,
+.empty-state,
+.hidden-members,
+.site-footer { font-size: 14px; }
+.highlight-item h2 { font-size: 15px; }
+.page-heading h1 { font-size: 38px; }
+.about-copy h2 { font-size: 25px; }
+.about-values span { font-size: 13px; }
+.member-index { font-size: 10px; }
+.member-name-row h2 { font-size: 18px; }
+.footer-brand { font-size: 12px; }
+
+@media (min-width: 700px) {
+  .brand { font-size: 16px; }
+  .main-nav .nav-link { font-size: 14px; }
+  .header-contact { font-size: 13px; }
+  .hero-description,
+  .about-copy > p { font-size: 15px; }
+  .page-heading h1 { font-size: 48px; }
+  .about-copy h2 { font-size: 28px; }
+  .member-name-row h2 { font-size: 19px; }
+  .member-info > p,
+  .member-meta,
+  .site-footer { font-size: 12px; }
+  .footer-brand { font-size: 13px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
